@@ -1,6 +1,6 @@
 {
   "name": "datetime-formatter-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Introducing our time and date formatter, built using core JavaScript for efficient functionality",
   "main": "index.js",
   "type": "module",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deepakduttaOfficial/date-formatter.git"
+    "url": "git+https://github.com/deepakduttaOfficial/datetime-formatter-js.git"
   },
   "keywords": [
-    "date-time-formatter"
+    "datetime-formatter-js"
   ],
   "author": "Deepak Dutta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deepakduttaOfficial/date-formatter/issues"
+    "url": "https://github.com/deepakduttaOfficial/datetime-formatter-js/issues"
   },
-  "homepage": "https://github.com/deepakduttaOfficial/date-formatter#readme"
+  "homepage": "https://github.com/deepakduttaOfficial/datetime-formatter-js#readme"
 }
