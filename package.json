@@ -1,0 +1,24 @@
+{
+  "name": "@coder-deepak/date-time-formatter",
+  "version": "1.0.0",
+  "description": "Introducing our time and date formatter, built using core JavaScript for efficient functionality",
+  "main": "index.js",
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakduttaOfficial/date-formatter.git"
+  },
+  "keywords": [
+    "date-time-formatter"
+  ],
+  "author": "Deepak Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakduttaOfficial/date-formatter/issues"
+  },
+  "homepage": "https://github.com/deepakduttaOfficial/date-formatter#readme"
+}
