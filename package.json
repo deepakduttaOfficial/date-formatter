@@ -1,5 +1,5 @@
 {
-  "name": "@coder-deepak/date-time-formatter",
+  "name": "datetime-formatter-js",
   "version": "1.0.0",
   "description": "Introducing our time and date formatter, built using core JavaScript for efficient functionality",
   "main": "index.js",
