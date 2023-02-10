@@ -5,6 +5,7 @@ import {
   daysSortName,
   dateFormatter,
   getTimeAgo,
+  formatAMPM,
 } from "./date/dateAndmonth.js";
 
 export default {
@@ -14,4 +15,5 @@ export default {
   daysSortName,
   dateFormatter,
   getTimeAgo,
+  formatAMPM,
 };
