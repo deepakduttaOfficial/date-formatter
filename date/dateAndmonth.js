@@ -80,7 +80,7 @@ export const dateFormatter = (data, formate) => {
   }
 };
 
-export function getTimeAgo(date, sort = false) {
+export const getTimeAgo = (date, sort = false) => {
   if (!date) {
     return "Date is a mandatory field";
   }
@@ -111,4 +111,15 @@ export function getTimeAgo(date, sort = false) {
   } else {
     return seconds + (sort ? "s" : seconds === 1 ? " second" : " seconds");
   }
-}
+};
+
+export const formatAMPM = (date) => {
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let ampm = hours >= 12 ? "pm" : "am";
+  hours = hours % 12;
+  hours = hours ? hours : 12;
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  let strTime = hours + ":" + minutes + " " + ampm;
+  return strTime;
+};

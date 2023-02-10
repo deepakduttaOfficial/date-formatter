@@ -1,6 +1,6 @@
 {
   "name": "datetime-formatter-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Introducing our time and date formatter, built using core JavaScript for efficient functionality",
   "main": "index.js",
   "type": "module",
