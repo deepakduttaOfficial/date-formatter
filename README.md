@@ -46,6 +46,10 @@ datetimeFormatter.dateFormatter(Date.now(), "-")
 
 - **getTimeAgo**: The package includes a `getTimeAgo()` function which takes a timestamp (e.g. by default sort is false) as input and returns a string indicating how long ago that timestamp was, e.g. "5 minutes ago" or "3 days ago".
 
+## formatAMPM()
+
+- **formatAMPM**: function to convert a given timestamp into a time string with "am" or "pm" appended to the end
+
 ## dateFormatter()
 
 **Transform your date into various customizable formats with our dateFormatter() function. Simply pass in a date and the desired format type, including options such as:**
